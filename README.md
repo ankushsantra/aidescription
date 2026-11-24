@@ -66,4 +66,7 @@ composer update ankush/aidescription -W
 php bin/magento setup:upgrade
 php bin/magento cache:clean
 ```
+<img width="1867" height="575" alt="ai_agents" src="https://github.com/user-attachments/assets/1ac97886-7d86-4275-9f87-127b72a9043d" />
+<img width="1787" height="641" alt="config" src="https://github.com/user-attachments/assets/126e824a-d920-4c2f-8f95-d2ba8c8c4a9b" />
+<img width="1857" height="712" alt="ai_desc" src="https://github.com/user-attachments/assets/e657124e-a980-4ce7-9a63-6efa769db05a" />
 
