@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2026 Ankush.
+ */
+-->
+<page xmlns:xsi="http://w3.org" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script src="Ankush_Aidescription::js/product-edit-ajax.js"/>
+    </head>
+    <body>
+        <referenceContainer name="js">
+            <block class="Ankush\Aidescription\Block\Adminhtml\Product" template="Ankush_Aidescription::js.phtml" name="custom_backend_js"/>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,16 @@
+<?php
+/**
+ * Copyright © 2026 Ankush.
+ */
+
+$product = $block->getProduct();
+
+?>
+<script>
+    require([
+        "prototype"
+    ], function () {
+        window.aiControllerUrl = '<?= /** @noEscape */ $block->getUrl('ankush/aidescription/index')?>';
+        window.productId = '<?= /** @noEscape */ $product->getId()?>';
+    });
+</script>

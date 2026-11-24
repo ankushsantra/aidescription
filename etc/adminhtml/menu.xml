@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ankush_Aidescription::agents" title="AI Agents" translate="title" module="Ankush_Aidescription" sortOrder="90" parent="Magento_Backend::marketing_communications" action="ankush/agent/" resource="Ankush_Aidescription::aidescription_aidescription"/>
+    </menu>
+</config>
